@@ -1,8 +1,6 @@
 import Cabecalho from "./Cabecalho"
 import Conteudo from "./Conteudo"
 import MenuLateral from "./MenuLateral"
-
-
 interface LayoutProps{
     titulo: string
     subtitulo: string
@@ -11,7 +9,7 @@ interface LayoutProps{
 
 export default function Layout(props: LayoutProps){
     return (
-      <div className={`flex h-screen w-scren`}>
+      <div className={`dark flex h-screen w-scren`}>
         <MenuLateral />
         <div className={`flex flex-col w-full p-7
          bg-gray-300
