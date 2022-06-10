@@ -1,7 +1,7 @@
 import route from 'next/router'
 import { createContext, useState } from 'react'
 import firebase from '../../firebase/config'
-import Usuario from '../../model/User'
+import Usuario from '../../model/Usuario'
 
 
 route
